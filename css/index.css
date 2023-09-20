@@ -21,6 +21,8 @@ body {
     grid-template-rows: 0.75fr 5fr 0.5fr;
     grid-template-areas: "Header" "Main" "Footer";
     margin: 0;
+    background-color: transparent;
+    z-index: 1000000;
     height: 100vh;
 }
 
@@ -32,22 +34,23 @@ body {
 }
 
 .header {
-    position: fixed;
+    overflow: hidden;
     grid-area: Header;
     width: 100%;
-    margin: 0;
+    height: 100%;
+    border-bottom:#fff solid 2px;
     z-index: 10000000;
 }
 
 .footer {
     grid-area: Footer;
     width: 100%;
-    height: 10%;
+    height: 100%;
     color: #fff;
     border-top: #fff solid 2px;
     z-index: 100000;
-    position: fixed;
-    bottom: 0;
+    overflow: hidden;
+    bottom: 1px;
 }
 
 .sidenav {
@@ -108,7 +111,7 @@ body {
         height: 100%;
     }
     body{
-        grid-template-rows: 1fr 6fr 0.75fr;
+        grid-template-rows: 0.75fr 6fr 0.50fr;
     }
     .header{
         border-bottom: #fff solid 2px;
