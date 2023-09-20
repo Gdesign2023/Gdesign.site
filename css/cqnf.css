@@ -9,9 +9,6 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "Haut Bas";
 }
-body{
-    width: 100%;
-}
 .containe-haut {
     grid-area: Haut;
     width: 50vw;
@@ -43,11 +40,6 @@ body{
     border:#fff solid 2px;
 }
 .texte{
-    font-size: 50px;
-    color: #BDA039;
-    text-align: center;
-}
-.teste{
     font-size: 50px;
     color: #BDA039;
     text-align: center;
