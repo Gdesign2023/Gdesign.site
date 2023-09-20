@@ -11,7 +11,6 @@
 }
 body{
     width: 100%;
-    height: 100%;
 }
 .containe-haut {
     grid-area: Haut;
@@ -59,6 +58,7 @@ body{
         grid-template-columns:1fr;
         grid-template-areas: "Haut" "Bas";
     }
+
     .containe-haut{
         position: initial;
     }
