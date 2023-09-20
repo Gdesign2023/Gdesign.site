@@ -11,7 +11,7 @@ function loadPage(pageName) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  loadPage('/html/main');
+  loadPage('/html/main.html');
 });
 var sidenav = document.getElementById("mySidenav");
 var openBtn = document.getElementById("openBtn");
