@@ -187,6 +187,7 @@ body {
         display: flex;
         align-items: center;
         margin-left: 10px;
+        background-color: transparent;
     }
     .main{
         margin: 0;
