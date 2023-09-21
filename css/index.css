@@ -87,7 +87,8 @@ body {
         font-weight: bold;
         justify-content: center;
         color: #BDA039;
-        margin-left: 30px;
+        margin-right: 30px ;
+        margin-bottom:initial;
     }
 
     /* Sidenav menu */
@@ -116,7 +117,10 @@ body {
     .header{
         border-bottom: #fff solid 2px;
         display: flex;
+        height: 100%;
+        width: 100%;
         align-items: center;
+        justify-content: space-between;
     }
     .sidenav button {
         padding-left: 10px;
@@ -183,9 +187,6 @@ body {
         display: flex;
         align-items: center;
         margin-left: 10px;
-    }
-    .titre{
-        margin:10px 0;
     }
     .main{
         margin: 0;
